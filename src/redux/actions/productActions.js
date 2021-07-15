@@ -14,4 +14,9 @@ export const selectedProduct = (product) => {
     };
   };
 
-  
+  export const removeselectedProduct = (product) => {
+    return {
+      type: ActionTypes.REMOVE_SELECTED_PRODUCT,
+    };
+  };
+
